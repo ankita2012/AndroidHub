@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/displayID"
+        android:visibility="gone"/>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:id="@+id/editType"
+       android:hint="Modify Transaction Type"
+       android:textSize="12sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editAmount"
+        android:layout_gravity="center"
+        android:hint="Modify Txn Amount"
+        android:textSize="12sp"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editRemarks"
+        android:layout_gravity="center"
+        android:hint="Modify Txn Remarks"
+        android:textSize="12sp"/>
+</LinearLayout>
