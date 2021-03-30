@@ -1,3 +1,3 @@
 # AndroidHub
 
-A repository of some Android OS tried and tested functionality. 
+RecyclerView with an option to add and delete items in list view. Additionally, has a header denoting month.
